@@ -1,0 +1,9 @@
+# l'immagine ha bisogno solo di Dockerfile + defconfig; il resto non serve nel build context
+.git
+.github
+examples
+scripts
+README.md
+LICENSE
+.gitignore
+.dockerignore

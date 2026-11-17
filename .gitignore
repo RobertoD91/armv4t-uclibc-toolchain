@@ -1,0 +1,7 @@
+# artefatti di build locali
+*.o
+*.out
+a.out
+/hello
+/hello_bare
+/fbvncserver
