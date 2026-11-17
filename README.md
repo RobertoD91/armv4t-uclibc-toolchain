@@ -16,8 +16,8 @@ toolchains skip.
 
 Pull the prebuilt image (built by CI — see below):
 ```bash
-docker pull ghcr.io/RobertoD91/armv4t-uclibc-toolchain:latest
-docker run --rm -v "$PWD":/work ghcr.io/<owner>/armv4t-uclibc-toolchain \
+docker pull ghcr.io/robertod91/armv4t-uclibc-toolchain:latest
+docker run --rm -v "$PWD":/work ghcr.io/robertod91/armv4t-uclibc-toolchain \
     arm-linux-gcc -O2 -march=armv4t -static -o /work/a.out /work/a.c
 ```
 
