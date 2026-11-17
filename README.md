@@ -1,5 +1,7 @@
 # armv4t-uclibc-toolchain
 
+### ⚠️ Waring: this repo is AI generated ! ⚠️
+
 A ready-to-use **cross-compilation toolchain for ARMv4T Linux with uClibc-ng**, shipped as a Docker
 image. It targets the old ARMv4T cores — **ARM7TDMI, ARM720T, ARM920T/922T** — that modern prebuilt
 toolchains skip.
@@ -14,7 +16,7 @@ toolchains skip.
 
 Pull the prebuilt image (built by CI — see below):
 ```bash
-docker pull ghcr.io/<owner>/armv4t-uclibc-toolchain:latest
+docker pull ghcr.io/RobertoD91/armv4t-uclibc-toolchain:latest
 docker run --rm -v "$PWD":/work ghcr.io/<owner>/armv4t-uclibc-toolchain \
     arm-linux-gcc -O2 -march=armv4t -static -o /work/a.out /work/a.c
 ```
